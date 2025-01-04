@@ -19,7 +19,7 @@ jobs:
         run: pip install mkdocs
 
       - name: Build index
-        run: md-index --depth=2 --url-prefix="https://ghproxy.net/https://raw.githubusercontent.com/swjtuhub/SWJTU-Courses/main/"
+        run: md-index --depth=2 --url-prefix="https://ghgo.xyz/https://raw.githubusercontent.com/swjtuhub/SWJTU-Courses/main/"
         working-directory: "./"
 
       - name: Build website
